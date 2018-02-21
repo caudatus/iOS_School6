@@ -9,6 +9,7 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 > xcode 9.0, ios 11.0
 
 - [i am rich][iamrich]
+- [Dice Game][dicee]
 
 
 ## [Practice][practice]
@@ -20,5 +21,6 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 > 이론 정리
 
 [iamrich]: /Project/I_Am_Rich/
+[dicee]: /Project/Dice_Game/
 [practice]: http://99-bottles-of-beer.net/
 [99bottles]: /Practice/99-Bottles-Of-Beer.md

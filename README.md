@@ -16,6 +16,7 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 
 ## [Practice]
 > 예제 및 연습문제, 알고리즘 문제 코드작성
+- [Collatz conjecture][collatz]
 - [FIBONACCI NUMBERS][fibonacci]
 - [99 Bottles Of Beer][99bottles]
 
@@ -23,6 +24,7 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 ## Class
 > 이론 정리
 
+[collatz]: /Practice/Collatz-conjecture.md
 [xylophone]: /Project/Xylophone/
 [iamrich]: /Project/I_Am_Rich/
 [dicee]: /Project/Dice_Game/

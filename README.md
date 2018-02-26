@@ -8,6 +8,7 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 ## Project
 > Xcode 9.0, Swift 4.0
 
+- [Quiz Together][quiz]
 - [Xylophone][xylophone]
 - [Dice Game][dicee]
 - [i am rich][iamrich]
@@ -24,6 +25,7 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 ## Class
 > 이론 정리
 
+[quiz]: /Project/Quiz_Together/
 [collatz]: /Practice/Collatz-conjecture.md
 [xylophone]: /Project/Xylophone/
 [iamrich]: /Project/I_Am_Rich/

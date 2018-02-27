@@ -24,7 +24,10 @@ iOS 개발자 과정을 진행하며 학습한 내용을 정리하고 있습니�
 
 ## Class
 > 이론 정리
+* [Singleton Pattern][singleton]
 
+
+[singleton]: /Class/singleton-pattern.md
 [quiz]: /Project/Quiz_Together/
 [collatz]: /Practice/Collatz-conjecture.md
 [xylophone]: /Project/Xylophone/

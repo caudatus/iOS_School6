@@ -1,10 +1,12 @@
-<img src="/Img/swift_logo.svg" title="Swift" float="center">
+<img src="/Img/swift_logo.svg" title="Swift" width="300px" float="center">
+
 # Swift / iOS Developer
+
 > 이름 : 서재형
-메일 : jaehyeongee@gmail.com
+> 메일 : jaehyeongee@gmail.com
 
 - Project : 최소한의 기능 구현을 목표로 실행가능한 app 제작
-- Practice : 각 기능별 예제 및 연습문제 코드 작성
+- Practice : 각 기능별 예제 및 연습문제, 알고리즘 문제 코드 작성
 - Class : iOS / Swift 에 관한 이론 정리
 
 ## Project
@@ -27,9 +29,14 @@
 
 ## Class
 > 이론 정리
+* [Generic][generic]
+* [Extensions][extension]
 * [Subscript][subscript]
 * [Singleton Pattern][singleton]
 
+
+[generic]: /Class/generic.md
+[extension]: /Class/extensions.md
 [matrix]: /Practice/Matrix.md
 [subscript]: /Class/subscript.md
 [singleton]: /Class/singleton-pattern.md

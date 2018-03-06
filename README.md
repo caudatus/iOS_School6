@@ -3,7 +3,7 @@
 # Swift / iOS Developer
 
 > 이름 : 서재형
-> 메일 : jaehyeongee@gmail.com
+> **:envelope:** : jaehyeongee@gmail.com
 
 - Project : 최소한의 기능 구현을 목표로 실행가능한 app 제작
 - Practice : 각 기능별 예제 및 연습문제, 알고리즘 문제 코드 작성

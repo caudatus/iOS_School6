@@ -1,9 +1,7 @@
 ## Weather_Now
 > Xcode 9, iOS 11, swift 4
 
-<img src="/Img/Project/ title="Xylophone" width="300px" float="center">
-
-cocoapod
+cocoapod 설치
 터미널
 1. sudo gem install cocoapods
 2. pod setup --verbose

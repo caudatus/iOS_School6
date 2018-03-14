@@ -49,7 +49,7 @@ for i in stride(from: 0, to: 5, by: -1) {
 }
 //- example5 -
 ```
-#
+<br/>
 ## stride(from:through:by:)
 > from 값으로 시작하여 stride 값만큼 증가하면서 through 값을 포함한 숫자까지 반복
 ```swift
@@ -73,7 +73,7 @@ for countdown in stride(from: 3, through: 0, by: -1) {
 //1...
 //0...
 ```
-#
+<br/>
 ## repeatElement
 
 > func repeatElement<T>(_ element: T, count n: Int) -> Repeated<T>

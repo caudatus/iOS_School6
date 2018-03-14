@@ -35,7 +35,7 @@
 * [Singleton Pattern][singleton]
 
 
-[generic]: /01_Lecture/Generic.md
+[generic]: /01_Lecture/Generics.md
 [extension]: /01_Lecture/Extensions.md
 [matrix]: /02_Practice/Matrix.md
 [subscript]: /01_Lecture/Subscript.md

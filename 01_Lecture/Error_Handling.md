@@ -6,7 +6,7 @@
 3. Converting Errors to Optional Values
 4. Disabling Error Propagation
 
-<br/>
+
 ### 1. Propagating Errors
 ```Swift
 // 오류에 대한 처리를 코드의 다른 부분에서 처리하도록 throws 키워드를 명시적으로 선언
@@ -52,7 +52,7 @@ private func throwsFunctionExample() throws {}
 private func throwsFunctionExample() rethrows {} // Error
 private func rethrowsFunctionExample(_ fn: () throws -> ()) rethrows {}
 ```
-<br/>
+
 ### 2. Handling Errors Using Do-Catch
 ```Swift
 do {
@@ -83,7 +83,7 @@ do {
   print("Unexpected error: \(error).")
 }
 ```
-<br/>
+
 ### 3. Converting Errors to Optional Values
 ```Swift
 // try? 를 사용하여 do ~ catch 구문 없이 오류 처리 가능 
@@ -115,7 +115,7 @@ func fetchData() -> Data? {
   return nil
 }
 ```
-<br/>
+
 ### 4. Disabling Error Propagation
 ```Swift
 // do ~ catch 구문 없이 throws 메서드 처리 가능하지만 오류 발생 시 앱 Crash

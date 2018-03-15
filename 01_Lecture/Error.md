@@ -6,7 +6,7 @@ Swift 에서 정의하는 심각도에 따른 4가지 유형의 오류
 * recoverable (복구 가능한 오류)
 * universal error (범용 오류)
 * logic failure (논리적 오류)
-<br/>
+
 ## Error 란?
 1. simple domain error (단순 도메인 오류)
     * 명백하게 실패하도록 되어 있는 연산 또는 추측에 의한 실행 등으로 발생
@@ -27,17 +27,17 @@ Swift 에서 정의하는 심각도에 따른 4가지 유형의 오류
     * Logic 에 대한 오류는 프로그래머의 실수로 발생하는 것으로 프로그램적으로 컨트롤할 수 없는 오류에 해당
     * 시스템에서 메시지를 남기고 abort()를 호출하거나 Exception 발생
 
-<br/>
+
 ## Error Handling
 * 프로그램 동작 중 예상 가능한 오류가 발생했을때 이를 감지하고 복구하기 위한 일련의 처리과정
 * Exception Handling과 유사하지만 다른 특성들을 지닌 부분이 있어 의도적으로 다른 용어를 사용
-<br/>
+
 ## 4 ways to handle errors
 * Propagating Errors Using Throwing Functions
 * Handling Errors Using Do-Catch
 * Converting Errors to Optional Values
 * Disabling Error Propagation
-<br/>
+
 ## Specifying Cleanup Actions
 
 * defer - 현재 코드 블럭이 종료되기 직전에 반드시 실행되어야 하는 코드 등록
@@ -57,7 +57,7 @@ func processFile(filename: String) throws {
   }
 }
 ```
-<br/>
+
 ## Error
 ```Swift
 public protocol Error {
@@ -79,7 +79,7 @@ open class NSError : NSObject, NSCopying, NSSecureCoding {
 extension NSError : Error {
 }
 ```
-<br/>
+
 ## Define Custom Error
 ```Swift
 enum IntParsingError: Error {

@@ -59,7 +59,7 @@ zip(filenames, extensions).forEach { print($0 + "." + $1) }
 //text.txt
 //video.mpeg
 ```
-<br/>
+
 ## sequence
 ```
 func sequence<T>(first: T, next: (T) -> T?)
@@ -100,7 +100,7 @@ for x in repeatSeq.prefix(5) {
 //5
 //5
 ```
-<br/>
+
 ## enumerated, sorted, reversed
 ```Swift
 print("\n---------- [ enumerated ] ----------\n")

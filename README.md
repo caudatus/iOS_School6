@@ -5,9 +5,9 @@
 > **iOS Dev** | *Jan 2018 ~ Current*
 
 ## Contents
-> Project : 최소한의 기능 구현을 목표로 실행가능한 app 제작
-  Practice : 각 기능별 예제 및 연습문제, 알고리즘 코드 작성
-  Lecture : 강의 및 iOS / Swift 에 관한 이론 정리
+> **Project  :** 최소한의 기능 구현을 목표로 실행가능한 app 제작
+> **Practice :** 각 기능별 예제 및 연습문제, 알고리즘 코드 작성
+> **Lecture  :** 강의 및 iOS / Swift 에 관한 이론 정리
 
 ## Project
 > Xcode 9.0 이상, Swift 4.0

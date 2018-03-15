@@ -6,7 +6,7 @@ Swift 에서 정의하는 심각도에 따른 4가지 유형의 오류
 * recoverable (복구 가능한 오류)
 * universal error (범용 오류)
 * logic failure (논리적 오류)
-<br/>
+
 ## Error 란?
 1. simple domain error (단순 도메인 오류)
     * 명백하게 실패하도록 되어 있는 연산 또는 추측에 의한 실행 등으로 발생

@@ -127,7 +127,7 @@
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny" translatesAutoresizingMaskIntoConstraints="NO" id="1kO-sZ-P9R">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny" translatesAutoresizingMaskIntoConstraints="NO" id="1kO-sZ-P9R">
                                                     <rect key="frame" x="36" y="35" width="144" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="128" id="Y6d-fS-BUi"/>
@@ -164,12 +164,24 @@
                                     <action selector="switchDisplay:" destination="geY-h1-4J7" eventType="touchUpInside" id="iou-Fc-SOs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-ak-2F0">
+                                <rect key="frame" x="87" y="40" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Uv4-1C-iSD"/>
+                                    <constraint firstAttribute="width" constant="200" id="j21-Ec-sft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="TLN-uh-XAe" firstAttribute="trailing" secondItem="16t-sU-Wpd" secondAttribute="trailing" id="1wz-n3-qn4"/>
                             <constraint firstItem="16t-sU-Wpd" firstAttribute="leading" secondItem="TLN-uh-XAe" secondAttribute="leading" id="6Qm-XX-wOp"/>
                             <constraint firstItem="f7U-Z7-rjq" firstAttribute="leading" secondItem="TLN-uh-XAe" secondAttribute="leading" constant="5" id="Cki-2O-Urt"/>
+                            <constraint firstItem="RPs-ak-2F0" firstAttribute="centerX" secondItem="Gs2-C6-meJ" secondAttribute="centerX" id="GdZ-K9-7QA"/>
+                            <constraint firstItem="RPs-ak-2F0" firstAttribute="top" secondItem="TLN-uh-XAe" secondAttribute="top" constant="20" id="Ima-Jp-p2J"/>
                             <constraint firstItem="TLN-uh-XAe" firstAttribute="trailing" secondItem="Gs2-C6-meJ" secondAttribute="trailing" id="MLw-Xa-m9e"/>
                             <constraint firstItem="Gs2-C6-meJ" firstAttribute="top" secondItem="TLN-uh-XAe" secondAttribute="top" constant="-20" id="Rzf-hs-F3C"/>
                             <constraint firstItem="Gs2-C6-meJ" firstAttribute="leading" secondItem="TLN-uh-XAe" secondAttribute="leading" id="SFr-Qe-WZx"/>
@@ -182,6 +194,7 @@
                     </view>
                     <connections>
                         <outlet property="forecastView" destination="16t-sU-Wpd" id="bot-de-8fc"/>
+                        <outlet property="nameLb" destination="RPs-ak-2F0" id="uqN-Ny-Hcg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSf-gp-C8U" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -70,6 +70,12 @@ class ViewController: UIViewController{
       
    }
    
+   
+   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      let forecastVC = segue.destination as! ForecastViewController
+      forecastVC.cityName = locationLb.text!
+   }
+   
 }
 
 

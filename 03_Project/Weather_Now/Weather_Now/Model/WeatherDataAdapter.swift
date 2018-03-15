@@ -38,6 +38,7 @@ final class WeatherDataAdapter: NSObject{
    }
    
    
+   //openweather.com api 를 호출하여 5일간의 예보데이터를 받아옴
    func getData(url: String, parameters: [String: String]){
       Alamofire.request(url, method: .get, parameters: parameters).responseJSON  {
          response in
@@ -54,13 +55,18 @@ final class WeatherDataAdapter: NSObject{
    }
    
    
+   // 받아온 5일간의 데이터를 데이터 모델에 맞추어 세팅한다.
+   // 온도, 해수면, 기압, 습도, 구름의 양, 날씨상태, 데이트, 풍향, 풍속, id 등의 정보를 필요에 맞춰 세팅한다.
    func setList(_ json: JSON) {
       var jsonList: [WeatherDataModel] = []
       for data in json["list"] {
          var wdm = WeatherDataModel()
          wdm.weatherCondition = data.1["weather"][0]["id"].intValue
+         let tempResult = data.1["main"]["temp"].doubleValue
+         wdm.temperature = Int(tempResult - 273.15)
          wdm.time = data.1["dt_txt"].stringValue
-         print("date = ",wdm.time)
+         print("date = ",wdm.temperature)
+
          jsonList.append(wdm)
       }
       dataList = jsonList

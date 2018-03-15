@@ -11,13 +11,17 @@ import UIKit
 class ForecastViewController: UIViewController {
 
    let WEATHER = WeatherDataAdapter.shared
+   var cityName: String = "KOREA"
    
    @IBOutlet weak var forecastView: UICollectionView!
+   @IBOutlet weak var nameLb: UILabel!
    
    override func viewDidLoad() {
       super.viewDidLoad()
       forecastView.delegate = self
       forecastView.dataSource = self
+      forecastView.backgroundColor = UIColor.clear
+      nameLb.text = cityName
     }
    
    
@@ -38,13 +42,17 @@ extension ForecastViewController: UICollectionViewDelegateFlowLayout, UICollecti
    
    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
       print("numberOfItemsInSection")
-      return 40
+      return WEATHER.dataList.count
    }
    
    
    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       print("cellForItemAt")
       let cell = forecastView.dequeueReusableCell(withReuseIdentifier: "forecastCell", for: indexPath) as! FeatureCollectionViewCell
+      cell.backgroundColor = UIColor.clear
+      cell.dateLb.text = WEATHER.dataList[indexPath.item].time
+      cell.tempLb.text = "\(WEATHER.dataList[indexPath.item].temperature) ℃"
+      cell.weatherImg.image = UIImage(named: WEATHER.dataList[indexPath.item].weatherIconName)
       
       return cell
    }
@@ -52,7 +60,7 @@ extension ForecastViewController: UICollectionViewDelegateFlowLayout, UICollecti
    
    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
       print("sizeForItemAt")
-      return CGSize(width: 200.0, height: 200.0)
+      return CGSize(width: 250.0, height: 250.0)
    }
    
    

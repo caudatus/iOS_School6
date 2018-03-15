@@ -1,7 +1,7 @@
 ## Quiz Together
 > Xcode 9, iOS 11, swift 4
 
-<img src="/Img/Project/quiz_together.gif" title="Xylophone" width="300px" float="center">
+<img src="/Img/Project/quiz_together.gif" title="Quiz" width="300px" float="center">
 
 간단한 OX퀴즈 게임입니다.
 OX의 버튼을 탭하여 답을 입력하고 그 결과를 표시하며

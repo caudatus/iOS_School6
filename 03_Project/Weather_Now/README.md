@@ -1,5 +1,7 @@
 ## Weather_Now
 > Xcode 9, iOS 11
+- Main View : 현재날씨(날씨 아이콘, 기온, 현재 지역 도시)
+- Forecast View : 5일간 날씨예보 표시(데이트, 날씨아이콘, 기온)
 <img src="/Img/Project/weather_now.gif" title="Weather" width="300px" float="center">
 
 ## cocoapod 설치
@@ -83,7 +85,7 @@ let CURRENT_WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
   }
 }
 ```
-### 3시간 간격, 5일 예보 데이터 
+### 3시간 간격, 5일 예보 데이터
 ```JSON
 {
   "list" : [

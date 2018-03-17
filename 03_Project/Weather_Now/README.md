@@ -50,7 +50,7 @@ end
 ## OpenWeatherMap
 ```Swift
 //openweather.com api key
-let API_KEY = "1efa0713e3aacf69eca77fc307401274"
+let API_KEY = "1efa07....77fc307401274"
 //openweather.com 5days forecast api url
 let FORECAST_WEATHER_URL = "http://api.openweathermap.org/data/2.5/forecast"
 let CURRENT_WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"

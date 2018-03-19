@@ -25,6 +25,8 @@ Firebase Analytics는 Google이 모바일 앱을 위해 선보이는 완전히 �
 ```
 Firebase는 실시간 데이터베이스와 백엔드 서비스를 제공합니다.
 이 서비스는 어플리케이션 개발자에게 하나의 API를 제공하는데 이 API는 어플리케이션 데이터가 고객 그리고 저장된 Firebase 클라우드와 자동 동기화되도록 해줍니다.
+
+observe 기능을 이용하여 실시간으로 변경된 데이터를 앱으로 반영할 수 있다.
 ```
 
 [Firebase 실시간 데이터베이스][realtime]
@@ -75,4 +77,87 @@ end
    수정하지 않으면 인증된 권한 소유자 만이 읽고 쓸수 있다.
 6. 게시 클릭
 7. 프로젝트 설정
-8. iOS 앱에 Firebase 추가
+8. iOS 앱에 Firebase 추가(GoogleService-Info.plist 파일 추가)
+
+## 예제 코드
+```Swift
+import UIKit
+import Firebase
+
+class ViewController: UIViewController {
+
+   var ref: DatabaseReference!
+
+   @IBOutlet weak var nameTf: UITextField!
+   @IBOutlet weak var valueTf: UITextField!
+   @IBOutlet weak var deleteItemTf: UITextField!
+
+
+   @IBOutlet weak var resultUpTf: UITextField!
+   @IBOutlet weak var resultDownTf: UITextField!
+
+
+   override func viewDidLoad() {
+      super.viewDidLoad()
+
+      ref = Database.database().reference()
+
+      // 싱글이벤트 : 로드가 될때 한번만 체크해서 데이터를 가지고 온다
+//      ref.child("JSON").observeSingleEvent(of: .value) { DataSnapshot in
+//         let value = DataSnapshot.value as? NSDictionary
+//         let name = value?["Name"] as? String ?? ""
+//         print("Name : " + name)
+//      }
+
+      // 데이터가 추가될때 실시간으로 앱싱크를 맞추어 반영할수 있도록 옵저브기능을 제공
+      ref.observe(.childAdded) { DataSnapshot in
+         print("item added")
+         self.resultUpTf.text = DataSnapshot.value as? String
+      }
+
+      ref.observe(.childRemoved) { DataSnapshot in
+         print("item removed")
+      }
+
+      ref.observe(.childChanged) { DataSnapshot in
+         print("item changed")
+      }
+   }
+
+
+
+   @IBAction func insertBtnPressed(_ sender: UIButton) {
+
+      //let itemsRef = ref.child((nameTf.text?.lowercased())!)
+      //itemsRef.setValue(valueTf.text)
+      ref.child((nameTf.text?.lowercased())!).setValue(valueTf.text)
+
+      nameTf.text = ""
+      valueTf.text = ""
+   }
+
+
+   @IBAction func deleteBtnPressed(_ sender: UIButton) {
+      ref.child(deleteItemTf.text!).removeValue { (error, ref) in
+         if error != nil {
+            print("error \(String(describing: error))")
+         }
+         self.deleteItemTf.text = ""
+      }
+   }
+
+
+   @IBAction func selectBtnPressed(_ sender: UIButton) {
+//      ref.child(sele).observeSingleEvent(of: .value, with: { DataSnapshot in
+//
+//         let value = DataSnapshot.value as? String
+//         let name = value
+//
+//         print("Name : " + name!)
+//
+//         self.resultTextFiled.text = value
+//      })
+   }
+
+}
+```

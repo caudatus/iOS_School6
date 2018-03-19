@@ -11,10 +11,6 @@
   <img src="https://img.shields.io/badge/License-MIT-red.svg"
       alt="MIT">
 </a>
-<a href="https://github.com/MessageKit/MessageKit/issues">
-   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"
-        alt="Contributions Welcome">
-</a>
 
 <br/>
 

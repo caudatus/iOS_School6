@@ -11,13 +11,9 @@
   <img src="https://img.shields.io/badge/License-MIT-red.svg"
       alt="MIT">
 </a>
-<a href="https://github.com/MessageKit/MessageKit/issues">
-   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"
-        alt="Contributions Welcome">
-</a>
 
-- Main View : 현재날씨(날씨 아이콘, 기온, 현재 지역 도시)
-- Forecast View : 5일간 날씨예보 표시(데이트, 날씨아이콘, 기온)
+> **Main View** : 현재날씨(날씨 아이콘, 기온, 현재 지역 도시)
+> **Forecast View** : 5일간 날씨예보 표시(데이트, 날씨아이콘, 기온)
 
 <img src="/Img/Project/weather_now.gif" title="Weather" width="300px" float="center">
 

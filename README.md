@@ -10,7 +10,7 @@
 - **Lecture  :** 강의 및 iOS / Swift 에 관한 이론 정리
 
 ## Project
-> Xcode 9.0 이상, Swift 4.0
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
 
 - [Bitcoin Now][bitcoin]
 - [Weather Now][weather]

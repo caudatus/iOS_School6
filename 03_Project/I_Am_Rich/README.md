@@ -1,16 +1,5 @@
 ## I Am Rich
-<a href="https://swift.org">
- <img src="https://img.shields.io/badge/Swift-4-orange.svg"
-      alt="Swift" />
-</a>
-<a href="https://developer.apple.com/xcode">
-  <img src="https://img.shields.io/badge/Xcode-9-blue.svg"
-      alt="Xcode">
-</a>
-<a href="https://opensource.org/licenses/MIT">
-  <img src="https://img.shields.io/badge/License-MIT-red.svg"
-      alt="MIT">
-</a>
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
 
 <br/>
 

@@ -1,19 +1,10 @@
 ## Weather_Now
-<a href="https://swift.org">
- <img src="https://img.shields.io/badge/Swift-4-orange.svg"
-      alt="Swift" />
-</a>
-<a href="https://developer.apple.com/xcode">
-  <img src="https://img.shields.io/badge/Xcode-9-blue.svg"
-      alt="Xcode">
-</a>
-<a href="https://opensource.org/licenses/MIT">
-  <img src="https://img.shields.io/badge/License-MIT-red.svg"
-      alt="MIT">
-</a>
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
 
-> **Main View** : 현재날씨(날씨 아이콘, 기온, 현재 지역 도시)
-> **Forecast View** : 5일간 날씨예보 표시(데이트, 날씨아이콘, 기온)
+&#10077; **Main View** : 현재날씨(날씨 아이콘, 기온, 현재 지역 도시) &#10078;
+&#10077; **Forecast View** : 5일간 날씨예보 표시(데이트, 날씨아이콘, 기온) &#10078;
+
+<br/>
 
 <img src="/Img/Project/weather_now.gif" title="Weather" width="300px" float="center">
 

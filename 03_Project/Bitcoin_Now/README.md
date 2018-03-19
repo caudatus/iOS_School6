@@ -40,10 +40,10 @@ Returns ticker data for specified symbol
 No permissions required
 
 **URL PARAMETERS**
-| Parameter	| Required | Description |
-| :--- | :--- |:--- |
-| symbol_set | True | Symbol Set. Options: `global,local,crypto,tokens` |
-| symbol | True |	Full currency pair symbol. Example: `BTCKRW` |
+> | Parameter	| Required | Description |
+> | :--- | :--- |:--- |
+> | symbol_set | True | Symbol Set. Options: `global,local,crypto,tokens` |
+> | symbol | True |	Full currency pair symbol. Example: `BTCKRW` |
 
 <br/>
 

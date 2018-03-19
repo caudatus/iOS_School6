@@ -27,6 +27,7 @@
 <br/>
 
 사이트 : https://bitcoinaverage.com/
+
 참고문서 : https://apiv2.bitcoinaverage.com/#ticker-data-per-symbol
 
 ### Ticker Data(Per Symbol)

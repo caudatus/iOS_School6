@@ -1,4 +1,4 @@
-# Firebase (수정중)
+# Firebase 
 클라우드 서비스를 제공자이며 동시에 BackEnd 기능을 가지고 있다.
 * 다양한 플랫폼과 기기에서 어플리케이션 데이터를 실시간 동기화를 지원
 * Authentication

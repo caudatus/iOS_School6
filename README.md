@@ -12,6 +12,7 @@
 ## Project
 > Xcode 9.0 이상, Swift 4.0
 
+- [Bitcoin Now][bitcoin]
 - [Weather Now][weather]
 - [Quiz Together][quiz]
 - [Xylophone][xylophone]
@@ -39,6 +40,7 @@
 - **:iphone:** : +82 10.5270.0109
 - **:email:** : jaehyeongee@gmail.com
 
+[bitcoin]: 03_Project/Bitcoin_Now
 [weather]: 03_Project/Weather_Now
 [generic]: /01_Lecture/Generics.md
 [extension]: /01_Lecture/Extensions.md

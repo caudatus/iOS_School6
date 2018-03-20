@@ -1,6 +1,6 @@
-<img src="/Img/swift_logo.svg" title="Swift" width="300px" float="center">
-
 # Jaehyeong Seo
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
+
 ## About Me
 > **iOS Dev** | *Jan 2018 ~ Current*
 
@@ -10,7 +10,6 @@
 - **Lecture  :** 강의 및 iOS / Swift 에 관한 이론 정리
 
 ## Project
-![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
 
 - [Bitcoin Now][bitcoin]
 - [Weather Now][weather]

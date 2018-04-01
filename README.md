@@ -6,11 +6,12 @@
 
 ## Contents
 - **Project  :** 최소한의 기능 구현을 목표로 실행가능한 app 제작
-- **Practice :** 각 기능별 예제 및 연습문제, 알고리즘 코드 작성   
+- **Practice :** 각 기능별 예제 및 연습문제, 알고리즘 코드 작성
 - **Lecture  :** 강의 및 iOS / Swift 에 관한 이론 정리
 
 ## Project
 
+- [Open Chat Now][openchat]
 - [Bitcoin Now][bitcoin]
 - [Weather Now][weather]
 - [Quiz Together][quiz]
@@ -39,6 +40,7 @@
 - **:iphone:** : +82 10.5270.0109
 - **:email:** : jaehyeongee@gmail.com
 
+[openchat]: 03_Project/Open_Chat_Now
 [bitcoin]: 03_Project/Bitcoin_Now
 [weather]: 03_Project/Weather_Now
 [generic]: /01_Lecture/Generics.md

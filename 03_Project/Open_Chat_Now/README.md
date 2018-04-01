@@ -6,22 +6,18 @@ Firebase Realtime Database를 이용한 오픈채팅방 구현
 
 <br/>
 
-<img src="/Img/Project/open_chat/open_chat_now.gif" title="Chat_NOw" width="300px">
+<img src="/Img/Project/open_chat/open_chat_now.gif" title="Chat_NOw">
 
 <br/>
 
 ## Main, Sign In, Sign Up
-<img src="/Img/Project/open_chat/main.png" width="200px">
-<img src="/Img/Project/open_chat/sign_in.png" width="200px">
-<img src="/Img/Project/open_chat/sign_up.png" width="200px">
+<img src="/Img/Project/open_chat/main.png" width="200px"><img src="/Img/Project/open_chat/sign_in.png" width="200px"><img src="/Img/Project/open_chat/sign_up.png" width="200px">
 
 <br/>
 
 ## error
 
-<img src="/Img/Project/open_chat/pw_bad.png" width="200px">
-<img src="/Img/Project/open_chat/email_bad.png" width="200px">
-<img src="/Img/Project/open_chat/duplicate_email.png" width="200px">
+<img src="/Img/Project/open_chat/pw_bad.png" width="200px"><img src="/Img/Project/open_chat/email_bad.png" width="200px"><img src="/Img/Project/open_chat/duplicate_email.png" width="200px">
 
 <br/>
 

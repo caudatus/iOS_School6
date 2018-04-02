@@ -40,18 +40,18 @@
 - **:iphone:** : +82 10.5270.0109
 - **:email:** : jaehyeongee@gmail.com
 
-[openchat]: 03_Project/Open_Chat_Now
-[bitcoin]: 03_Project/Bitcoin_Now
-[weather]: 03_Project/Weather_Now
+[openchat]: 03_Project/07_Open_Chat_Now
+[bitcoin]: 03_Project/06_Bitcoin_Now
+[weather]: 03_Project/05_Weather_Now
 [generic]: /01_Lecture/Generics.md
 [extension]: /01_Lecture/Extensions.md
 [matrix]: /02_Practice/Matrix.md
 [subscript]: /01_Lecture/Subscript.md
 [singleton]: /01_Lecture/Singleton-Pattern.md
-[quiz]: /03_Project/Quiz_Together/
+[quiz]: /03_Project/04_Quiz_Together/
 [collatz]: /02_Practice/Collatz-conjecture.md
-[xylophone]: /03_Project/Xylophone/
-[iamrich]: /03_Project/I_Am_Rich/
-[dicee]: /03_Project/Dice_Game/
+[xylophone]: /03_Project/03_Xylophone/
+[iamrich]: /03_Project/01_I_Am_Rich/
+[dicee]: /03_Project/02_Dice_Game/
 [99bottles]: /02_Practice/99-Bottles-Of-Beer.md
 [fibonacci]: /02_Practice/FIBONACCI-NUMBERS.md

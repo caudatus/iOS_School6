@@ -10,11 +10,14 @@ import UIKit
 
 class ToDoListViewController: UITableViewController {
 
+   var defaults = UserDefaults.standard
    var itemArray = ["Buy Beer", "Study Swift", "Have a Good Day"]
    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
+      super.viewDidLoad()
+      if let item = defaults.array(forKey: "TODO_LIST_RK") as? [String] {
+         itemArray = item
+      }
     }
 
    
@@ -25,6 +28,7 @@ class ToDoListViewController: UITableViewController {
       let action = UIAlertAction(title: "할 일 추가", style: .default) { (action) in
          if let todoText = textField.text {
             self.itemArray.append(todoText)
+            self.defaults.set(self.itemArray, forKey: "TODO_LIST_RK")
          }
          self.tableView.reloadData()
       }

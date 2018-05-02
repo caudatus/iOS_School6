@@ -1,16 +1,20 @@
 # Jaehyeong Seo
-![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat-square) ![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg?longCache=true&style=flat-square) [![License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true&style=flat-square)](https://github.com/caudatus/SeoJaeHyeong_iOS_School6/blob/master/LICENSE)
-
-## About Me
 > **iOS Dev** | *Jan 2018 ~ Current*
+- **Business** | *2012 ~ 2017*
+- **Java Developer** | *2010 ~ 2011 E-commerce*
+- **Sports Athlete** | *2006 ~ 2008*
+
+<br/>
 
 ## Contents
 - **Project  :** 최소한의 기능 구현을 목표로 실행가능한 app 제작
 - **Practice :** 각 기능별 예제 및 연습문제, 알고리즘 코드 작성
 - **Lecture  :** 강의 및 iOS / Swift 에 관한 이론 정리
 
-## Project
+<br/>
 
+## Project
+- [ToDo Now][todo]
 - [Open Chat Now][openchat]
 - [Bitcoin Now][bitcoin]
 - [Weather Now][weather]
@@ -19,27 +23,15 @@
 - [Dice Game][dicee]
 - [i am rich][iamrich]
 
-
-## Practice
-> 예제 및 연습문제, 알고리즘 코드작성
-- [Matrix][matrix]
-- [Collatz conjecture][collatz]
-- [FIBONACCI NUMBERS][fibonacci]
-- [99 Bottles Of Beer][99bottles]
-
-
-## Lecture
-> 이론 및 강의 정리
-* [Generic][generic]
-* [Extensions][extension]
-* [Subscript][subscript]
-* [Singleton Pattern][singleton]
+<br/>
 
 ## Contact Me
 - **:lion:** : 서재형
 - **:iphone:** : +82 10.5270.0109
-- **:email:** : jaehyeongee@gmail.com
+- **:email:** : aihaveadream@gmail.com
 
+
+[todo]: 03_Project/08_ToDo_Now
 [openchat]: 03_Project/07_Open_Chat_Now
 [bitcoin]: 03_Project/06_Bitcoin_Now
 [weather]: 03_Project/05_Weather_Now

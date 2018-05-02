@@ -11,7 +11,9 @@ To Do 리스트 작성
 <br/>
 
 ## CoreData
+
 <img src="/Img/Project/to_do_now_coredata.png" title="ToDo_Now_Data">
+
 ```Swift
 let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 

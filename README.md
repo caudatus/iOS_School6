@@ -2,7 +2,6 @@
 > **iOS Dev** | *Jan 2018 ~ Current*
 - **Business** | *2012 ~ 2017*
 - **Java Developer** | *2010 ~ 2011 E-commerce*
-- **Sports Athlete** | *2006 ~ 2008*
 
 <br/>
 
